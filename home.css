@@ -1,0 +1,87 @@
+*{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Titles{
+    font-size: 75px;
+    font-weight: 700px;
+}
+.About{
+    display: inline-flex;
+}
+#Mission{
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-right: 50px;
+    height: 100%;
+}
+#Vision{
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    height: 100%;
+}
+#Values{
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-left: 50px;
+    height: 100%;
+}
+#Values li{
+    text-align: left;
+    margin-left: 95px;
+}
+
+.ServicePage{
+    width: 100%;
+    height: 960px;
+    background-color: hsl(214, 0%, 10%);
+    color: white;
+}
+.Services{
+        display: inline-flex;
+}
+#Service1{
+    margin: auto;
+    margin-right: 50px;
+}
+#Service2{
+    margin: auto;
+}
+#Service3{
+    margin: auto;
+    margin-left: 50px;
+}
+button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: hsl(0, 1%, 7%);
+    cursor: pointer;
+}
+#button1{
+    margin: auto;
+    margin-right: 180px;
+}
+#button2{
+    margin: auto;
+}
+#button3{
+    margin: auto;
+    margin-left: 200px;
+}
