@@ -1,0 +1,103 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+    filter: blur(12px);
+    -webkit-filter: blur(12px);
+    z-index: -1;
+  }
+
+header, footer{
+    position:absolute;
+    left:0;
+    width:100%;
+    background-color: rgba(49, 48, 48, 0.4); 
+    height:fit-content;
+    /* Texts */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+
+}
+
+header{
+    top:0;
+}
+
+footer{
+    bottom:0;
+}
+
+main{
+    margin-top:100px;
+}
+
+main h1{
+    margin-top:8%;
+}
+
+
+h2{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 1%;
+    padding-right:1%;
+    width: fit-content;
+    color:white;
+    background-color:darkgray;
+}
+
+.buttons{
+    margin-top:1%;
+    margin-left:2%;
+}
+
+.buttons button{
+    border: 0;
+    background-color: gray;
+    color:white;
+    padding: 10px;
+    font-size: clamp(16px, 1.5rem, 2rem);
+    margin-top:1%;
+}
+
+.buttons button:hover{
+    background-color: lightgray;
+}
+
+.clicker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+
+#cm_Button:hover::after{
+    content: "  - Boosts your clicks by +1! : 50 lifts";
+    color:white;
+}
+
+#ed_Button:hover::after{
+    content: "  - Adds time by 1 (Max of 5) : 150 lifts";
+    color:white;
+}
+
+#ad_Button:hover::after{
+    content: "  - Multiply your clicks by 2* next rep : 200 lifts";
+    color:white;
+}
+
+#useAdrenaline{
+    background-color: red;
+}
+
+#useAdrenaline:hover{
+    background-color:firebrick;
+}
+
+#useAdrenaline:hover::after{
+    font-size:16px;
+    content: " - can only use 1 adrenaline a run"
+}
